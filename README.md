@@ -2,7 +2,7 @@ Nama Kelompok :
 
 Nama Anggota 1 		: Falahyan 
 NPM														: 1917051049
-Alama												: Lampung Barat
+Alamat											: Lampung Barat
 
 Nama Anggota 2 		: Gladie Thoriqudin
 NPM														: 1917051047
