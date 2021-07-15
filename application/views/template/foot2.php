@@ -65,11 +65,12 @@
 		.bindPopup("<?= $a['nama_lokasi']; ?>").openPopup();
 <?php endforeach; ?>
 	
-<?php foreach($polygon as $p) : ?>	
-	L.polygon([
-		<?=$p['cord'];?>
-	]).addTo(mymap).bindPopup(<?=$p['nama_polygon'];?>);
-<?php endforeach; ?>
+<?php foreach ($polygon as $p) : ?>
+		var polygon = L.polygon([<?= $p['cord']; ?>
+
+			])
+			.addTo(mymap).bindPopup("<?= $p['nama_polygon']; ?>");
+	<?php endforeach; ?>
 	
 	var popup = L.popup();
 

@@ -19,6 +19,7 @@ class Welcome extends CI_Controller {
 	public function map2()
 	{
 		$data['lokasi'] = $this->Webci3_Model-> getloc();
+		$data['polygon'] = $this->Polygon_Model-> getpolygon();
 		$this->load->view('template/head');
 		$this->load->view('pages/index');
 		$this->load->view('template/foot2',$data);
@@ -57,6 +58,18 @@ class Welcome extends CI_Controller {
 			}
 
 		
+	}
+	public function table()
+	{
+		$this->load->view('template/head');
+		$this->load->view('pages/table',$data);
+		$this->load->view('template/foot');
+	}
+	public function table2()
+	{
+		$this->load->view('template/head');
+		$this->load->view('pages/table2');
+		$this->load->view('template/foot');
 	}
 	
 }

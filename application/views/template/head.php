@@ -89,6 +89,18 @@
                   <p>FORM Circle</p>
                 </a>
               </li>
+              <li class="nav-item">
+                <a href="<?=base_url('Welcome/table')?>" class="nav-link">
+                  <i class="far fa-map nav-icon"></i>
+                  <p>Table Marker</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="<?=base_url('Welcome/table2')?>" class="nav-link">
+                  <i class="far fa-map nav-icon"></i>
+                  <p>Table Polygon</p>
+                </a>
+              </li>
             </ul>
           </li>
         </ul>
