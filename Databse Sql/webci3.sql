@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Waktu pembuatan: 15 Jul 2021 pada 18.28
+-- Waktu pembuatan: 15 Jul 2021 pada 20.52
 -- Versi server: 10.4.13-MariaDB
 -- Versi PHP: 7.4.7
 
@@ -59,7 +59,7 @@ CREATE TABLE `polygon` (
 --
 
 INSERT INTO `polygon` (`id_polygon`, `nama_polygon`, `cord`) VALUES
-(1, 'area xxx', '[-5.029996, 104.052478],[-5.014767, 104.074517],[-5.03999, 104.084302]');
+(1, 'area xxx', '[-4.929515, 103.573608], [-5.618719, 104.773865],[-5.063586, 103.748016]');
 
 --
 -- Indexes for dumped tables
